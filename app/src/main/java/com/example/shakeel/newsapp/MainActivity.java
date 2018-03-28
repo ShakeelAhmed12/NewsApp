@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
             @Override
             public void onClick(View view) {
                 if(!searchQuery.getText().toString().isEmpty()) {
-                    Log.e("Test", searchQuery.getText().toString());
                     search(searchQuery.getText().toString());
                 }else{
                     emptyTextView.setText(R.string.invalid_search);
