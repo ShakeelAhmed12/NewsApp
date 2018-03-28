@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="search_hint">Search for your news</string>
+    <string name="empty_view">No news available</string>
+    <string name="not_found">No news found</string>
+    <string name="invalid_search">Please enter a valid search</string>
+</resources>
